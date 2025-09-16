@@ -1,0 +1,34 @@
+# Binaries and build artifacts
+/gtfsrt-visualizer
+/bin/
+/build/
+/dist/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Go build/test outputs
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+coverage.*
+
+# Logs and temp
+*.log
+*.tmp
+/tmp/
+
+# Editors/IDE
+.idea/
+.vscode/
+
+# Dependencies (uncomment if you vendor)
+# vendor/
+
+# Go workspace files (if not used here)
+# go.work
